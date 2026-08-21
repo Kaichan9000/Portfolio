@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/hero.css">
+  <link rel="stylesheet" href="styles/sections.css">
+  <link rel="stylesheet" href="styles/about.css">
+  <link rel="stylesheet" href="styles/skills.css">
+  <link rel="stylesheet" href="styles/projects.css">
+  <link rel="stylesheet" href="styles/contact.css">
+  <link rel="stylesheet" href="styles/scrollBtn.css">
+  <link rel="stylesheet" href="styles/footer.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <a href="" class="logo">My Portfolio</a>
+
+      <button class="menuBtn" id="menuBtn">≡</button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero-section" id="home">
+      <div class="hero-content">
+        <p class="welcome">Welcome to Kaichan's website</p>
+
+        <h1>
+          Hi I'm 
+          <span>Kaichan</span>
+        </h1>
+
+        <h2>
+          Web developer
+        </h2>
+
+        <p>
+          I create modern, responsive and user-friendly website
+          using HTML, CSS, and JavaScript
+        </p> 
+
+        <div class="hero-buttons">
+          <div class="btn1">
+            <a href="#projects" class="btn">
+              View Projects
+            </a>
+          </div>
+
+          <div class="btn2">
+            <a href="#contact" class="btn btn-outline">
+              Contact Me            
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <section class="section about-section" id="about">
+      <div class="container">
+        <h2 class="section-title">
+          About me
+        </h2>
+
+        <div class="about-content">
+
+          <div class="img-container">
+            <img class="pfp" src="img/pfp.jpg" alt="">
+          </div>
+
+          <div class="about-text">
+            <h3>I am a passionate web developer</h3>
+
+            <p>
+              I enjoy building website and web applications that are 
+              fast, responsive and easy to use.
+            </p>
+
+            <p>
+              My Goal is to continuously improve my development skills
+              and create useful digital products.
+            </p>
+
+            <a href="#contact" class="about-btn">Hire me</a>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <h2 class="section-title">
+          Skills
+        </h2>
+
+        <div class="skills-card">
+          
+          <div class="skill-card">
+            <div class="skill-icon">
+              HTML
+            </div>
+
+            <h3>HTML</h3>
+
+            <p>Creating semantic and accessable webpage structure</p>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">
+              CSS
+            </div>
+
+            <h3>CSS</h3>
+            
+            <p>Designing responsive and modern user interface</p>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">
+              JS
+            </div>
+
+            <h3>JavaScript</h3>
+            
+            <p>
+              Adding dynamic functionality and interactivity to 
+              websites
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <h2 class="section-title">
+          Projects
+        </h2>
+
+        <div class="projects">
+
+          <div class="project-card">
+            <div class="project-image">
+              Project 1
+            </div>
+
+            <div class="project-content">
+              <h3>
+                Landing Page
+              </h3>
+
+              <p>
+                A modern responsive Landing Page
+                build with HTML and CSS.
+              </p>
+
+              <a href="" class="project-link">
+                View project →
+              </a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              Project 2
+            </div>
+
+            <div class="project-content">
+              <h3>
+                Todo App
+              </h3>
+
+              <p>
+                A JavaScript Todo Application for managing
+                daily tasks.
+              </p>
+
+              <a href="" class="project-link">
+                View project →
+              </a>
+            </div>
+            
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              Project 3
+            </div>
+
+            <div class="project-content">
+              <h3>
+                Weather App
+              </h3>
+
+              <p>
+                A responsive weather application with a
+                clean user interface
+              </p>
+              
+              <a href="" class="project-link">
+                View project →
+              </a>
+            </div>
+
+          </div>
+          
+
+        </div>
+         
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <h2 class="section-title">
+          Contact
+        </h2>
+
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter your name">
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="text" id="email" placeholder="Enter your email">
+          </div>
+
+          <div class="form-group">
+            <label for="name">Message:</label>
+            <textarea name="message" rows="6" id="message"></textarea>
+          </div>
+
+          <button class="formBtn" type="submit">
+            Send Message
+          </button>
+
+        </form>
+
+      </div>
+    </section>
+    
+  </main>
+
+  <footer class="footer">
+    &copy; 2026 MyPortfolio. All rights reserved.
+  </footer>
+
+  <button class="scrollBtn" id="scrollTop">
+    ↑
+  </button>
+
+  <script src="app.js"></script>
+</body>
+</html>

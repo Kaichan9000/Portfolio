@@ -1,0 +1,83 @@
+.hero-section{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: #b9cfff; */
+  line-height: 2;
+  padding: 30px;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: auto;
+}
+
+.welcome {
+  color: #90aeee;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  font-size: 20px;
+}
+
+.hero-content h1{
+  font-size: 45px;
+}
+
+.hero-content span {
+  color: #93b2f6;
+}
+
+.hero-content p {
+  color: #fff;
+}
+
+.hero-content p:not(.welcome) {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+}
+
+.hero-content h1 {
+  color: #fff;
+}
+
+.hero-content h2{
+  font-size: 28px;
+  color: #fff;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 23px;
+  font-weight: bold;
+}
+
+.btn1 a, .btn2 a{
+  background-color: #2563eb;
+  color: #fff;
+  text-decoration: none;
+  padding: 20px 15px;
+  border-radius: 5px;
+  letter-spacing: 1.5px;
+  transition: 0.3s ease;
+}
+
+.hero-buttons a:hover{
+  background: #12328a;
+}
+
+.btn1 a{
+  padding: 22px 15px;
+}
+
+.btn2 a{
+  background: transparent;
+  color: #fff;
+  border: 1.7px solid #1d4ed8;
+}
+
+.btn2 a:hover{
+  color: #fff;
+}
