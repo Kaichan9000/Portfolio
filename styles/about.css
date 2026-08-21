@@ -37,7 +37,7 @@
   color: #fff;
   text-decoration: none;
   padding: 10px 14px;
-  font-size: 16px;
+  font-size: 5px;
   border-radius: 5px;
   letter-spacing: 1.5px;
   transition: 0.3s ease;
@@ -83,6 +83,19 @@
   .pfp {
     width: 130px;
     height: 130px;
+  }
+
+  .about-text h3 {
+    line-height: 40px;
+    font-size: 30px;
+  }
+
+  .about-text p{
+    font-size: 18px;
+  }
+
+  .about-text a {
+    font-size: 16px;
   }
 }
 

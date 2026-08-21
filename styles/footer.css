@@ -18,3 +18,17 @@
     font-size: 12px;
   }
 }
+
+@media (max-width: 380px) {
+  .footer {
+    font-size: 10px;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 340px) {
+  .footer {
+    font-size: 8px;
+    padding: 20px;
+  }
+}

@@ -21,3 +21,32 @@
 .scroll-top.show {
   display: block;
 }
+
+
+@media (max-width: 380px) {
+  .scrollBtn {
+    bottom: 7px;
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+  }
+}
+
+@media (max-width: 340px) {
+  .scrollBtn {
+    bottom: 6px;
+    font-size: 17px;
+    height: 35px;
+    width: 35px;
+  }
+}
+
+@media (max-width: 300px) {
+  .scrollBtn {
+    bottom: 8px;
+    font-size: 20px;
+    height: 35px;
+    width: 35px;
+    right: 15px;
+  }
+}
